@@ -1,0 +1,16 @@
+# --- RUST (Backend) ---
+/backend/target/
+**/*.rs.bk
+Cargo.lock
+
+# --- REACT (Frontend) ---
+/frontend/rust-proj/node_modules/
+/frontend/rust-proj/dist/
+/frontend/rust-proj/.env
+/frontend/rust-proj/.env.local
+
+# --- SISTEMA ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

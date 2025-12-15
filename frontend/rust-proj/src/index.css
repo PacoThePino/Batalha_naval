@@ -1,0 +1,27 @@
+/* src/index.css */
+
+:root {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* 1. Garante que o corpo do site não tem margens */
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+/* 2. O CULPADO COSTUMA SER ESTE ID */
+/* O React cria uma div <div id="root">. Temos de garantir que ela ocupa tudo. */
+#root {
+  width: 100%;
+  height: 100vh; /* Ocupa a altura toda */
+  margin: 0;
+  padding: 0;
+  /* Removemos qualquer max-width ou text-align padrão */
+  max-width: none;
+  text-align: left; 
+}
